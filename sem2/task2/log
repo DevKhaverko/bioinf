@@ -1,0 +1,58 @@
+  ####################################################
+ 
+    Running VMD to define selections for protein A 
+    Running VMD to define selections for protein B 
+ 
+  ####################################################
+
+  #######################################################################
+
+                           PROGRAM: LOVOALIGN
+                   Low Order Value Optimization Methods
+                          for Protein Alignment
+                              Version 16.342 
+
+  #######################################################################
+  Problem specifications: 
+  -----------------------------------------------------------------------
+  Protein A: lovoalignvmd.A
+  Protein B: lovoalignvmd.B
+  Number of atoms: A:         100  B:         100
+  Will maximize the TM-SCORE 
+  Penalization for gaps:    0.0000000000000000     
+  Maximum number of iterations:        10000
+  Using internal-distance initial point.
+  GDT Threshold:    4.0000000000000000     
+  -----------------------------------------------------------------------
+  TRIAL:       1 SCORE:      0.72856 COVERAGE:     96 GAPS:      4 GLOB: 1
+  TRIAL:       4 SCORE:      0.72857 COVERAGE:     96 GAPS:      4 GLOB: 1
+  TRIAL:       6 SCORE:      0.72857 COVERAGE:     96 GAPS:      4 GLOB: 1
+  TRIAL:       9 SCORE:      0.72857 COVERAGE:     96 GAPS:      4 GLOB: 1
+  Repeated best solution found     3 times at trial    13
+
+  ------------------------- SEQUENCE ALIGNMENT --------------------------
+            .         .         .         .         .
+          1 MDKGDVTALPMKKWFTT--NYHYLVPEVEPSAEIKLNSTKPFDEFNEAKS    48
+          1 --MDKGDVTALPMKKWFTTNYHYLVPEVEPSAEIKLNSTKPFDEFNEAKS    48
+            .         .         .         .         .
+         49 LGVETKPVFIGPYTFLKLART--PEAAELEIDKGLVNAVAAVYAEVLARF    96
+         49 LGVETKPVFIGPYTFLKLARTPEAAEL-E-IDKGLVNAVAAVYAEVLARF    96
+            .         .         .         .         .
+         97 NDLG                                                 100
+         97 NDLG                                                 100
+
+  -----------------------------------------------------------------------
+  FINAL SCORE:     0.728565  COVERAGE:    96  RMSD:   4.768347  GAPS:   4
+  Final score normalized by smallest protein:     0.728565
+  -----------------------------------------------------------------------
+  ATOMS CLOSER THAN   3.0000 Ang: RMSD:   1.123496 COVERAGE:     71
+  GDT_TS SCORE:   69.250          GDT_HA SCORE:   53.250
+  -----------------------------------------------------------------------
+  Time used in this alignment:   3.03820036E-02
+  -----------------------------------------------------------------------
+  END OF ALIGNMENT 
+  -----------------------------------------------------------------------
+  Wrote file: ../../lovoalign/align/files/TEMP5714595944487767/ptm0.aligned_to.test_6e0f8_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000.pdb
+  -----------------------------------------------------------------------
+  TOTAL RUNNING TIME:    8.39629993E-02
+  -----------------------------------------------------------------------
